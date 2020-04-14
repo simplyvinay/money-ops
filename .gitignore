@@ -1,0 +1,7 @@
+/.vscode/
+/bin/
+/obj/
+/obj/
+/.vs/
+/*.user
+/Logs/logs*
