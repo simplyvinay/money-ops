@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Exelor.Infrastructure.Auth.Authorization
+namespace MoneyOps.Infrastructure.Auth.Authorization
 {
     public static class AuthorizationRegistry
     {

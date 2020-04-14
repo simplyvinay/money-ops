@@ -1,6 +1,6 @@
 ﻿using AspNetCoreRateLimit;
-using Exelor.Infrastructure.Auth.Authentication;
-using Exelor.Infrastructure.Validation;
+using MoneyOps.Infrastructure.Auth.Authentication;
+using MoneyOps.Infrastructure.Validation;
 using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc.Routing;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Exelor.Infrastructure
+namespace MoneyOps.Infrastructure
 {
     public static class WebRegistry
     {

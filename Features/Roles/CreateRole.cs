@@ -2,15 +2,15 @@
 using System.Net;
 using System.Threading;
 using System.Threading.Tasks;
-using Exelor.Domain.Identity;
-using Exelor.Dto;
-using Exelor.Infrastructure.Data;
-using Exelor.Infrastructure.ErrorHandling;
+using MoneyOps.Domain.Identity;
+using MoneyOps.Dto;
+using MoneyOps.Infrastructure.Data;
+using MoneyOps.Infrastructure.ErrorHandling;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Exelor.Features.Roles
+namespace MoneyOps.Features.Roles
 {
 public class CreateRole
     {

@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using Exelor.Domain.Identity;
-using Exelor.Infrastructure.Auth.Authentication;
-using Exelor.Infrastructure.ErrorHandling;
+using MoneyOps.Domain.Identity;
+using MoneyOps.Infrastructure.Auth.Authentication;
+using MoneyOps.Infrastructure.ErrorHandling;
 
-namespace Exelor.Infrastructure.Auth.Authorization
+namespace MoneyOps.Infrastructure.Auth.Authorization
 {
     public static class PermissionExtensions
     {

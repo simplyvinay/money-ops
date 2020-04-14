@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using Exelor.Dto;
+using MoneyOps.Dto;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Exelor.Features.Auth
+namespace MoneyOps.Features.Auth
 {
     [Route("auth")]
     public class AuthController

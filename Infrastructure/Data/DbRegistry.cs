@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Sieve.Models;
 using Sieve.Services;
 
-namespace Exelor.Infrastructure.Data
+namespace MoneyOps.Infrastructure.Data
 {
     public static class DbRegistry
     {

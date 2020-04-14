@@ -1,13 +1,13 @@
 ﻿using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Exelor.Dto;
-using Exelor.Infrastructure.Data;
+using MoneyOps.Dto;
+using MoneyOps.Infrastructure.Data;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Exelor.Features.Users
+namespace MoneyOps.Features.Users
 {
     public class UpdateUser
     {

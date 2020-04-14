@@ -1,8 +1,8 @@
-﻿using Exelor.Infrastructure.Auth.Authorization;
+﻿using MoneyOps.Infrastructure.Auth.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.IdentityModel.JsonWebTokens;
 
-namespace Exelor.Infrastructure.Auth.Authentication
+namespace MoneyOps.Infrastructure.Auth.Authentication
 {
     public interface ICurrentUser
     {

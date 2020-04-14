@@ -1,7 +1,7 @@
 ﻿using System;
-using Exelor.Infrastructure;
+using MoneyOps.Infrastructure;
 
-namespace Exelor.Domain.Identity
+namespace MoneyOps.Domain.Identity
 {
     public class RefreshToken : Entity
     {

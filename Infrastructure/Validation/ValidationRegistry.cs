@@ -1,7 +1,7 @@
 ﻿using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Exelor.Infrastructure.Validation
+namespace MoneyOps.Infrastructure.Validation
 {
     public static class ValidationRegistry
     {

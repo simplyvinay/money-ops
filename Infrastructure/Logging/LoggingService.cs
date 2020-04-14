@@ -4,7 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using Serilog;
 
-namespace Exelor.Infrastructure.Logging
+namespace MoneyOps.Infrastructure.Logging
 {
     public static class LoggingService
     {

@@ -1,12 +1,12 @@
 using AspNetCoreRateLimit;
-using Exelor.Infrastructure;
-using Exelor.Infrastructure.Auditing;
-using Exelor.Infrastructure.Auth.Authentication;
-using Exelor.Infrastructure.Auth.Authorization;
-using Exelor.Infrastructure.Data;
-using Exelor.Infrastructure.ErrorHandling;
-using Exelor.Infrastructure.Logging;
-using Exelor.Infrastructure.Validation;
+using MoneyOps.Infrastructure;
+using MoneyOps.Infrastructure.Auditing;
+using MoneyOps.Infrastructure.Auth.Authentication;
+using MoneyOps.Infrastructure.Auth.Authorization;
+using MoneyOps.Infrastructure.Data;
+using MoneyOps.Infrastructure.ErrorHandling;
+using MoneyOps.Infrastructure.Logging;
+using MoneyOps.Infrastructure.Validation;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Exelor
+namespace MoneyOps
 {
     public class Startup
     {
@@ -71,7 +71,7 @@ namespace Exelor
                     {
                         x.SwaggerEndpoint(
                             "/swagger/v1/swagger.json",
-                            "Exelor API V1");
+                            "MoneyOps API V1");
                     });
 
             app.UseIpRateLimiting();

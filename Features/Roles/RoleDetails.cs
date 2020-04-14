@@ -1,11 +1,11 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Exelor.Dto;
-using Exelor.Infrastructure.Data;
+using MoneyOps.Dto;
+using MoneyOps.Infrastructure.Data;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 
-namespace Exelor.Features.Roles
+namespace MoneyOps.Features.Roles
 {
     public class RoleDetails
     {

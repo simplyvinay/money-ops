@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
-namespace Exelor.Infrastructure
+namespace MoneyOps.Infrastructure
 {
     public class GroupByApiRootConvention : IControllerModelConvention
     {

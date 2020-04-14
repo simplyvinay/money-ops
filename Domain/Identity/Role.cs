@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Exelor.Infrastructure;
-using Exelor.Infrastructure.Auth.Authorization;
+using MoneyOps.Infrastructure;
+using MoneyOps.Infrastructure.Auth.Authorization;
 
-namespace Exelor.Domain.Identity
+namespace MoneyOps.Domain.Identity
 {
     public class Role : Entity
     {

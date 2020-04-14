@@ -1,4 +1,4 @@
-﻿namespace Exelor.Domain.Identity
+﻿namespace MoneyOps.Domain.Identity
 {
     public class UserRole 
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Exelor.Infrastructure.Auditing
+namespace MoneyOps.Infrastructure.Auditing
 {
     public enum AuditSink
     {

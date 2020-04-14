@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 
-namespace Exelor.Infrastructure.Auth.Authorization
+namespace MoneyOps.Infrastructure.Auth.Authorization
 {
     public class AuthorizationPolicyProvider : DefaultAuthorizationPolicyProvider
     {

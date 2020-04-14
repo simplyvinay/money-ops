@@ -2,14 +2,14 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Exelor.Dto;
-using Exelor.Infrastructure.Data;
+using MoneyOps.Dto;
+using MoneyOps.Infrastructure.Data;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Sieve.Models;
 using Sieve.Services;
 
-namespace Exelor.Features.Users
+namespace MoneyOps.Features.Users
 {
     public class UserList
     {

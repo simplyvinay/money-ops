@@ -4,11 +4,11 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
-using Exelor.Domain.Identity;
-using Exelor.Infrastructure.Auth.Authorization;
+using MoneyOps.Domain.Identity;
+using MoneyOps.Infrastructure.Auth.Authorization;
 using Microsoft.Extensions.Options;
 
-namespace Exelor.Infrastructure.Auth.Authentication
+namespace MoneyOps.Infrastructure.Auth.Authentication
 {
     public interface IJwtTokenGenerator
     {

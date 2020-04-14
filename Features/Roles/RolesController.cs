@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
-using Exelor.Domain.Identity;
-using Exelor.Dto;
-using Exelor.Infrastructure.Auth.Authorization;
+using MoneyOps.Domain.Identity;
+using MoneyOps.Dto;
+using MoneyOps.Infrastructure.Auth.Authorization;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Sieve.Models;
 
-namespace Exelor.Features.Roles
+namespace MoneyOps.Features.Roles
 {
     [Route("api/roles")]
     [HasPermission(Permissions.RoleManager)]

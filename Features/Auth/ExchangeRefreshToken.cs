@@ -5,10 +5,10 @@ using System.Net;
 using System.Security.Claims;
 using System.Threading;
 using System.Threading.Tasks;
-using Exelor.Dto;
-using Exelor.Infrastructure.Auth.Authentication;
-using Exelor.Infrastructure.Data;
-using Exelor.Infrastructure.ErrorHandling;
+using MoneyOps.Dto;
+using MoneyOps.Infrastructure.Auth.Authentication;
+using MoneyOps.Infrastructure.Data;
+using MoneyOps.Infrastructure.ErrorHandling;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
@@ -16,7 +16,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using JwtRegisteredClaimNames = Microsoft.IdentityModel.JsonWebTokens.JwtRegisteredClaimNames;
 
-namespace Exelor.Features.Auth
+namespace MoneyOps.Features.Auth
 {
     public class ExchangeRefreshToken
     {

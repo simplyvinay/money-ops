@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 
-namespace Exelor.Infrastructure.ErrorHandling
+namespace MoneyOps.Infrastructure.ErrorHandling
 {
     public class ErrorHandlingMiddleware
     {

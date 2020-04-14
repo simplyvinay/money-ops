@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.Json.Serialization;
-using Exelor.Infrastructure;
-using Exelor.Infrastructure.Auditing;
+using MoneyOps.Infrastructure;
+using MoneyOps.Infrastructure.Auditing;
 
-namespace Exelor.Domain.Identity
+namespace MoneyOps.Domain.Identity
 {
     public class User : Entity
     {

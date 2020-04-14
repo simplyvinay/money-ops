@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Exelor.Domain.Identity;
-using Exelor.Infrastructure.Auth.Authentication;
-using Exelor.Infrastructure.Auth.Authorization;
+using MoneyOps.Domain.Identity;
+using MoneyOps.Infrastructure.Auth.Authentication;
+using MoneyOps.Infrastructure.Auth.Authorization;
 using Microsoft.EntityFrameworkCore;
 
-namespace Exelor.Infrastructure.Data
+namespace MoneyOps.Infrastructure.Data
 {
     public class DataSeeder
     {

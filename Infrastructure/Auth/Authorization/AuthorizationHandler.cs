@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Exelor.Infrastructure.Auth.Authorization
+namespace MoneyOps.Infrastructure.Auth.Authorization
 {
     public class AuthorizationHandler : AuthorizationHandler<PermissionsRequirement>
     {

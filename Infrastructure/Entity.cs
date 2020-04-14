@@ -1,9 +1,9 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using Exelor.Infrastructure.Auditing;
+using MoneyOps.Infrastructure.Auditing;
 
-namespace Exelor.Infrastructure
+namespace MoneyOps.Infrastructure
 {
     public interface IEntity
     {

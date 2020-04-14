@@ -1,4 +1,4 @@
-﻿namespace Exelor.Infrastructure.Auth.Authentication
+﻿namespace MoneyOps.Infrastructure.Auth.Authentication
 {
     public class PasswordHasherSettings
     {

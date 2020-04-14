@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 
-namespace Exelor.Infrastructure
+namespace MoneyOps.Infrastructure
 {
     public static class SwaggerRegistry 
     {
@@ -42,7 +42,7 @@ namespace Exelor.Infrastructure
                         "v1",
                         new OpenApiInfo
                         {
-                            Title = "Exelor API",
+                            Title = "MoneyOps API",
                             Version = "v1"
                         });
                     x.CustomSchemaIds(y => y.FullName);

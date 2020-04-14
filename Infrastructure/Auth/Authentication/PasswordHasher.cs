@@ -3,7 +3,7 @@ using System.Security.Cryptography;
 using System.Text;
 using Microsoft.Extensions.Options;
 
-namespace Exelor.Infrastructure.Auth.Authentication
+namespace MoneyOps.Infrastructure.Auth.Authentication
 {
     public interface IPasswordHasher
     {

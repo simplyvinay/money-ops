@@ -1,9 +1,9 @@
-﻿using Exelor.Domain.Identity;
+﻿using MoneyOps.Domain.Identity;
 using Microsoft.Extensions.Options;
 using Sieve.Models;
 using Sieve.Services;
 
-namespace Exelor.Infrastructure.Data
+namespace MoneyOps.Infrastructure.Data
 {
     public class ApplicationSieveProcessor : SieveProcessor
     {

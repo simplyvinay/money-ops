@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Exelor</RootNamespace>
-    <AssemblyName>Exelor</AssemblyName>
+    <RootNamespace>MoneyOps</RootNamespace>
+    <AssemblyName>MoneyOps</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

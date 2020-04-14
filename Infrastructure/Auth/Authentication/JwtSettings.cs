@@ -3,7 +3,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Exelor.Infrastructure.Auth.Authentication
+namespace MoneyOps.Infrastructure.Auth.Authentication
 {
     public class JwtSettings
     {

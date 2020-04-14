@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace Exelor.Dto
+namespace MoneyOps.Dto
 {
     public class AuthUserDto
     {

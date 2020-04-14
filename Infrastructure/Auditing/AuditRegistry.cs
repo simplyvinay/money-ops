@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Exelor.Infrastructure.Auditing
+namespace MoneyOps.Infrastructure.Auditing
 {
     public static class AuditRegistry
     {

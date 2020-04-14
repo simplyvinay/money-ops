@@ -1,16 +1,16 @@
 ﻿using System.Collections.Generic;
 using System.Net;
 using System.Threading.Tasks;
-using Exelor.Domain.Identity;
-using Exelor.Dto;
-using Exelor.Infrastructure.Auth.Authentication;
-using Exelor.Infrastructure.Auth.Authorization;
-using Exelor.Infrastructure.ErrorHandling;
+using MoneyOps.Domain.Identity;
+using MoneyOps.Dto;
+using MoneyOps.Infrastructure.Auth.Authentication;
+using MoneyOps.Infrastructure.Auth.Authorization;
+using MoneyOps.Infrastructure.ErrorHandling;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Sieve.Models;
 
-namespace Exelor.Features.Users
+namespace MoneyOps.Features.Users
 {
     [Route("api/users")]
     public class UsersController

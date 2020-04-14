@@ -1,4 +1,4 @@
-﻿namespace Exelor.Infrastructure.Auth.Authorization
+﻿namespace MoneyOps.Infrastructure.Auth.Authorization
 {
     public struct JwtRegisteredCustomClaimNames
     {

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace Exelor.Infrastructure.Auditing
+namespace MoneyOps.Infrastructure.Auditing
 {
     public class Audit
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
 
-namespace Exelor.Infrastructure.Auth.Authorization
+namespace MoneyOps.Infrastructure.Auth.Authorization
 {
     public class PermissionsRequirement : IAuthorizationRequirement
     {

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using FluentValidation;
 using MediatR;
 
-namespace Exelor.Infrastructure.Validation
+namespace MoneyOps.Infrastructure.Validation
 {
     //https://stackoverflow.com/a/42289038
     public class ValidationPipelineBehavior<TRequest, TResponse>

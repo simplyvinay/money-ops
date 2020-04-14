@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Exelor.Domain.Identity;
-using Exelor.Infrastructure.Auth.Authentication;
-using Exelor.Infrastructure.Auditing;
+using MoneyOps.Domain.Identity;
+using MoneyOps.Infrastructure.Auth.Authentication;
+using MoneyOps.Infrastructure.Auditing;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using JsonSerializer = System.Text.Json.JsonSerializer;
 
-namespace Exelor.Infrastructure.Data
+namespace MoneyOps.Infrastructure.Data
 {
     public class ApplicationDbContext : DbContext
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Exelor.Domain.Identity
+namespace MoneyOps.Domain.Identity
 {
     public enum Permissions : short
     {

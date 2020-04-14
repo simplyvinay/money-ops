@@ -1,4 +1,4 @@
-﻿namespace Exelor.Dto
+﻿namespace MoneyOps.Dto
 {
     public class RoleDto
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace Exelor.Infrastructure.ErrorHandling
+namespace MoneyOps.Infrastructure.ErrorHandling
 {
     public class HttpException : Exception
     {

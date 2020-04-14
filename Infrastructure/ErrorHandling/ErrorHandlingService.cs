@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 
-namespace Exelor.Infrastructure.ErrorHandling
+namespace MoneyOps.Infrastructure.ErrorHandling
 {
     public static class ErrorHandlingService
     {
