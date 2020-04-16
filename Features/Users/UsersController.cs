@@ -1,14 +1,14 @@
-﻿using System.Collections.Generic;
-using System.Net;
+﻿using System.Net;
 using System.Threading.Tasks;
 using MoneyOps.Domain.Identity;
 using MoneyOps.Dto;
+using MoneyOps.Helpers;
+using MoneyOps.Helpers.Extensions;
 using MoneyOps.Infrastructure.Auth.Authentication;
 using MoneyOps.Infrastructure.Auth.Authorization;
 using MoneyOps.Infrastructure.ErrorHandling;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Sieve.Models;
 
 namespace MoneyOps.Features.Users
 {
@@ -30,10 +30,11 @@ namespace MoneyOps.Features.Users
         [HasPermission(
             Permissions.ReadUsers,
             Permissions.EditUsers)]
-        public async Task<List<UserDetailsDto>> Get(
-            SieveModel sieveModel)
+        [ProducesResponseType(typeof(UserDetailsDto), 200)]
+        public async Task<object> Get(
+            ListResourceParameters resourceParams)
         {
-            return await _mediator.Send(new UserList.Query(sieveModel));
+            return await _mediator.Send(new UserList.Query(resourceParams));
         }
 
         [HttpPut]

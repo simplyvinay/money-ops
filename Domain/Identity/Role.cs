@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
+using MoneyOps.Helpers.Extensions;
 using MoneyOps.Infrastructure;
-using MoneyOps.Infrastructure.Auth.Authorization;
 
 namespace MoneyOps.Domain.Identity
 {

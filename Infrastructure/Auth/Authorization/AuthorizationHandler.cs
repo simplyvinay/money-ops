@@ -1,5 +1,6 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
+using MoneyOps.Helpers.Extensions;
 using Microsoft.AspNetCore.Authorization;
 
 namespace MoneyOps.Infrastructure.Auth.Authorization

@@ -1,30 +1,30 @@
-﻿using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using MoneyOps.Dto;
+using MoneyOps.Helpers;
+using MoneyOps.Helpers.Extensions;
 using MoneyOps.Infrastructure.Data;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Sieve.Models;
 using Sieve.Services;
 
 namespace MoneyOps.Features.Roles
 {
-    public class UserList
+    public class RoleList
     {
-        public class Query : IRequest<List<RoleDto>>
+        public class Query : IRequest<object>
         {
-            public SieveModel SieveModel { get; }
+            public ListResourceParameters ResourceParams { get; }
 
             public Query(
-                SieveModel sieveModel)
+                ListResourceParameters resourceParams)
             {
-                SieveModel = sieveModel;
+                ResourceParams = resourceParams;
             }
         }
 
-        public class QueryHandler : IRequestHandler<Query, List<RoleDto>>
+        public class QueryHandler : IRequestHandler<Query, object>
         {
             private readonly ApplicationDbContext _dbContext;
             private readonly ISieveProcessor _sieveProcessor;
@@ -37,21 +37,22 @@ namespace MoneyOps.Features.Roles
                 _sieveProcessor = sieveProcessor;
             }
 
-            public async Task<List<RoleDto>> Handle(
+            public async Task<object> Handle(
                 Query message,
                 CancellationToken cancellationToken)
             {
                 var roles = _dbContext.Roles.AsNoTracking();
                 var filteredRoles = await _sieveProcessor.Apply(
-                    message.SieveModel,
+                    message.ResourceParams,
                     roles).ToListAsync(cancellationToken);
-                return filteredRoles.Select(
+                var roleDtos = filteredRoles.Select(
                     role => new RoleDto(
                         role.Id,
                         role.Name,
                         string.Join(
                             ", ",
-                            role.PermissionsInRole))).ToList();
+                            role.PermissionsInRole)));
+                return roleDtos.ShapeData(message.ResourceParams.Fields);
             }
         }
     }

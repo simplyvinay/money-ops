@@ -6,7 +6,7 @@ using MoneyOps.Domain.Identity;
 using MoneyOps.Infrastructure.Auth.Authentication;
 using MoneyOps.Infrastructure.ErrorHandling;
 
-namespace MoneyOps.Infrastructure.Auth.Authorization
+namespace MoneyOps.Helpers.Extensions
 {
     public static class PermissionExtensions
     {

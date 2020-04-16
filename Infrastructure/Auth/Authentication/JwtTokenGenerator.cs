@@ -5,6 +5,7 @@ using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Threading.Tasks;
 using MoneyOps.Domain.Identity;
+using MoneyOps.Helpers.Extensions;
 using MoneyOps.Infrastructure.Auth.Authorization;
 using Microsoft.Extensions.Options;
 

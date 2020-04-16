@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using MoneyOps.Domain.Identity;
+using MoneyOps.Helpers.Extensions;
 using MoneyOps.Infrastructure.Auth.Authentication;
 using MoneyOps.Infrastructure.Auth.Authorization;
 using Microsoft.EntityFrameworkCore;
