@@ -6,7 +6,9 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace MoneyOps.Features.Auth
 {
-    [Route("auth")]
+    [ApiVersion("1")]
+    [ApiVersion("2")]
+    [Route("api/v{version:ApiVersion}/auth")]
     public class AuthController
     {
         private readonly IMediator _mediator;

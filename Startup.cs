@@ -14,6 +14,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using MoneyOps.Infrastructure.Swagger;
 
 namespace MoneyOps
 {
@@ -69,9 +70,8 @@ namespace MoneyOps
                 .UseSwaggerUI(
                     x =>
                     {
-                        x.SwaggerEndpoint(
-                            "/swagger/v1/swagger.json",
-                            "MoneyOps API V1");
+                        x.SwaggerEndpoint("/swagger/v1/swagger.json", "V1");
+                        x.SwaggerEndpoint("/swagger/v2/swagger.json", "V2");
                     });
 
             app.UseIpRateLimiting();
